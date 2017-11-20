@@ -13,8 +13,21 @@
 		AE65A4481F7D52A800847D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE65A4471F7D52A800847D20 /* Assets.xcassets */; };
 		AE65A44B1F7D52A800847D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE65A4491F7D52A800847D20 /* LaunchScreen.storyboard */; };
 		AE65A44E1F7D52A800847D20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65A44D1F7D52A800847D20 /* main.m */; };
-		AED6AA421FC1A08800BDA0F5 /* KZ_AudioPlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED6AA411FC1A08800BDA0F5 /* KZ_AudioPlayerFramework.framework */; };
+		AEA5EBD91FC2A5A9003D7BD1 /* KZ_AudioPlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EBD81FC2A5A9003D7BD1 /* KZ_AudioPlayerFramework.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AED6A9F61FC19D0500BDA0F5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AE65A43B1F7D52A800847D20 /* KZ_AudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_AudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,7 +40,7 @@
 		AE65A44A1F7D52A800847D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE65A44C1F7D52A800847D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE65A44D1F7D52A800847D20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AED6AA411FC1A08800BDA0F5 /* KZ_AudioPlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AudioPlayerFramework.framework; sourceTree = "<group>"; };
+		AEA5EBD81FC2A5A9003D7BD1 /* KZ_AudioPlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AudioPlayerFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AED6AA421FC1A08800BDA0F5 /* KZ_AudioPlayerFramework.framework in Frameworks */,
+				AEA5EBD91FC2A5A9003D7BD1 /* KZ_AudioPlayerFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +78,7 @@
 				AE65A43F1F7D52A800847D20 /* AppDelegate.m */,
 				AE65A4411F7D52A800847D20 /* ViewController.h */,
 				AE65A4421F7D52A800847D20 /* ViewController.m */,
-				AE65A4541F7D52E000847D20 /* AudioPlayer */,
+				AEA5EBD71FC2A5A9003D7BD1 /* AudioPlayer */,
 				AE65A4441F7D52A800847D20 /* Main.storyboard */,
 				AE65A4471F7D52A800847D20 /* Assets.xcassets */,
 				AE65A4491F7D52A800847D20 /* LaunchScreen.storyboard */,
@@ -75,10 +88,10 @@
 			path = KZ_AudioPlayer;
 			sourceTree = "<group>";
 		};
-		AE65A4541F7D52E000847D20 /* AudioPlayer */ = {
+		AEA5EBD71FC2A5A9003D7BD1 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				AED6AA411FC1A08800BDA0F5 /* KZ_AudioPlayerFramework.framework */,
+				AEA5EBD81FC2A5A9003D7BD1 /* KZ_AudioPlayerFramework.framework */,
 			);
 			path = AudioPlayer;
 			sourceTree = "<group>";
@@ -93,6 +106,7 @@
 				AE65A4371F7D52A800847D20 /* Sources */,
 				AE65A4381F7D52A800847D20 /* Frameworks */,
 				AE65A4391F7D52A800847D20 /* Resources */,
+				AED6A9F61FC19D0500BDA0F5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,6 +310,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/KZ_AudioPlayer/AudioPlayer",
+					"$(PROJECT_DIR)/KZ_AudioPlayerFramework/Products",
 				);
 				INFOPLIST_FILE = KZ_AudioPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -316,6 +331,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/KZ_AudioPlayer/AudioPlayer",
+					"$(PROJECT_DIR)/KZ_AudioPlayerFramework/Products",
 				);
 				INFOPLIST_FILE = KZ_AudioPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
