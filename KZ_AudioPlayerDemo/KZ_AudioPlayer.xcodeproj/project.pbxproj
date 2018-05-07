@@ -7,48 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE65A4401F7D52A800847D20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65A43F1F7D52A800847D20 /* AppDelegate.m */; };
-		AE65A4431F7D52A800847D20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65A4421F7D52A800847D20 /* ViewController.m */; };
-		AE65A4461F7D52A800847D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE65A4441F7D52A800847D20 /* Main.storyboard */; };
-		AE65A4481F7D52A800847D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE65A4471F7D52A800847D20 /* Assets.xcassets */; };
-		AE65A44B1F7D52A800847D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE65A4491F7D52A800847D20 /* LaunchScreen.storyboard */; };
-		AE65A44E1F7D52A800847D20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65A44D1F7D52A800847D20 /* main.m */; };
-		AEA5EBD91FC2A5A9003D7BD1 /* KZ_AudioPlayerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EBD81FC2A5A9003D7BD1 /* KZ_AudioPlayerFramework.framework */; };
+		AEC62CAA20A070AE00DFC8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62CA920A070AE00DFC8B9 /* AppDelegate.m */; };
+		AEC62CAD20A070AE00DFC8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62CAC20A070AE00DFC8B9 /* ViewController.m */; };
+		AEC62CB020A070AE00DFC8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC62CAE20A070AE00DFC8B9 /* Main.storyboard */; };
+		AEC62CB220A070AF00DFC8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC62CB120A070AF00DFC8B9 /* Assets.xcassets */; };
+		AEC62CB520A070AF00DFC8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC62CB320A070AF00DFC8B9 /* LaunchScreen.storyboard */; };
+		AEC62CB820A070AF00DFC8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62CB720A070AF00DFC8B9 /* main.m */; };
+		AEC62CBE20A070E100DFC8B9 /* KZ_AudioPlayer_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC62CBD20A070E100DFC8B9 /* KZ_AudioPlayer_iOS.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		AED6A9F61FC19D0500BDA0F5 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		AE65A43B1F7D52A800847D20 /* KZ_AudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_AudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE65A43E1F7D52A800847D20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AE65A43F1F7D52A800847D20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE65A4411F7D52A800847D20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE65A4421F7D52A800847D20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AE65A4451F7D52A800847D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE65A4471F7D52A800847D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AE65A44A1F7D52A800847D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AE65A44C1F7D52A800847D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE65A44D1F7D52A800847D20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AEA5EBD81FC2A5A9003D7BD1 /* KZ_AudioPlayerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AudioPlayerFramework.framework; sourceTree = "<group>"; };
+		AEC62CA620A070AE00DFC8B9 /* KZ_AudioPlayer_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_AudioPlayer_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC62CA820A070AE00DFC8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEC62CA920A070AE00DFC8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEC62CAB20A070AE00DFC8B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEC62CAC20A070AE00DFC8B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEC62CAF20A070AE00DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEC62CB120A070AF00DFC8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEC62CB420A070AF00DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEC62CB620A070AF00DFC8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEC62CB720A070AF00DFC8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEC62CBD20A070E100DFC8B9 /* KZ_AudioPlayer_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AudioPlayer_iOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AE65A4381F7D52A800847D20 /* Frameworks */ = {
+		AEC62CA320A070AE00DFC8B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA5EBD91FC2A5A9003D7BD1 /* KZ_AudioPlayerFramework.framework in Frameworks */,
+				AEC62CBE20A070E100DFC8B9 /* KZ_AudioPlayer_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +45,7 @@
 		AE65A4321F7D52A800847D20 = {
 			isa = PBXGroup;
 			children = (
-				AE65A43D1F7D52A800847D20 /* KZ_AudioPlayer */,
+				AEC62CA720A070AE00DFC8B9 /* KZ_AudioPlayer_iOS */,
 				AE65A43C1F7D52A800847D20 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,32 +53,32 @@
 		AE65A43C1F7D52A800847D20 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE65A43B1F7D52A800847D20 /* KZ_AudioPlayer.app */,
+				AEC62CA620A070AE00DFC8B9 /* KZ_AudioPlayer_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE65A43D1F7D52A800847D20 /* KZ_AudioPlayer */ = {
+		AEC62CA720A070AE00DFC8B9 /* KZ_AudioPlayer_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				AE65A43E1F7D52A800847D20 /* AppDelegate.h */,
-				AE65A43F1F7D52A800847D20 /* AppDelegate.m */,
-				AE65A4411F7D52A800847D20 /* ViewController.h */,
-				AE65A4421F7D52A800847D20 /* ViewController.m */,
-				AEA5EBD71FC2A5A9003D7BD1 /* AudioPlayer */,
-				AE65A4441F7D52A800847D20 /* Main.storyboard */,
-				AE65A4471F7D52A800847D20 /* Assets.xcassets */,
-				AE65A4491F7D52A800847D20 /* LaunchScreen.storyboard */,
-				AE65A44C1F7D52A800847D20 /* Info.plist */,
-				AE65A44D1F7D52A800847D20 /* main.m */,
+				AEC62CA820A070AE00DFC8B9 /* AppDelegate.h */,
+				AEC62CA920A070AE00DFC8B9 /* AppDelegate.m */,
+				AEC62CAB20A070AE00DFC8B9 /* ViewController.h */,
+				AEC62CAC20A070AE00DFC8B9 /* ViewController.m */,
+				AEC62CBC20A070E100DFC8B9 /* AudioPlayer */,
+				AEC62CAE20A070AE00DFC8B9 /* Main.storyboard */,
+				AEC62CB120A070AF00DFC8B9 /* Assets.xcassets */,
+				AEC62CB320A070AF00DFC8B9 /* LaunchScreen.storyboard */,
+				AEC62CB620A070AF00DFC8B9 /* Info.plist */,
+				AEC62CB720A070AF00DFC8B9 /* main.m */,
 			);
-			path = KZ_AudioPlayer;
+			path = KZ_AudioPlayer_iOS;
 			sourceTree = "<group>";
 		};
-		AEA5EBD71FC2A5A9003D7BD1 /* AudioPlayer */ = {
+		AEC62CBC20A070E100DFC8B9 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				AEA5EBD81FC2A5A9003D7BD1 /* KZ_AudioPlayerFramework.framework */,
+				AEC62CBD20A070E100DFC8B9 /* KZ_AudioPlayer_iOS.framework */,
 			);
 			path = AudioPlayer;
 			sourceTree = "<group>";
@@ -99,22 +86,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE65A43A1F7D52A800847D20 /* KZ_AudioPlayer */ = {
+		AEC62CA520A070AE00DFC8B9 /* KZ_AudioPlayer_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE65A4511F7D52A800847D20 /* Build configuration list for PBXNativeTarget "KZ_AudioPlayer" */;
+			buildConfigurationList = AEC62CBB20A070AF00DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_AudioPlayer_iOS" */;
 			buildPhases = (
-				AE65A4371F7D52A800847D20 /* Sources */,
-				AE65A4381F7D52A800847D20 /* Frameworks */,
-				AE65A4391F7D52A800847D20 /* Resources */,
-				AED6A9F61FC19D0500BDA0F5 /* Embed Frameworks */,
+				AEC62CA220A070AE00DFC8B9 /* Sources */,
+				AEC62CA320A070AE00DFC8B9 /* Frameworks */,
+				AEC62CA420A070AE00DFC8B9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KZ_AudioPlayer;
-			productName = KZ_AudioPlayer;
-			productReference = AE65A43B1F7D52A800847D20 /* KZ_AudioPlayer.app */;
+			name = KZ_AudioPlayer_iOS;
+			productName = KZ_AudioPlayer_iOS;
+			productReference = AEC62CA620A070AE00DFC8B9 /* KZ_AudioPlayer_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,11 +109,11 @@
 		AE65A4331F7D52A800847D20 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Kieron Zhang";
 				TargetAttributes = {
-					AE65A43A1F7D52A800847D20 = {
-						CreatedOnToolsVersion = 9.0;
+					AEC62CA520A070AE00DFC8B9 = {
+						CreatedOnToolsVersion = 9.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -145,50 +131,50 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE65A43A1F7D52A800847D20 /* KZ_AudioPlayer */,
+				AEC62CA520A070AE00DFC8B9 /* KZ_AudioPlayer_iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AE65A4391F7D52A800847D20 /* Resources */ = {
+		AEC62CA420A070AE00DFC8B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE65A44B1F7D52A800847D20 /* LaunchScreen.storyboard in Resources */,
-				AE65A4481F7D52A800847D20 /* Assets.xcassets in Resources */,
-				AE65A4461F7D52A800847D20 /* Main.storyboard in Resources */,
+				AEC62CB520A070AF00DFC8B9 /* LaunchScreen.storyboard in Resources */,
+				AEC62CB220A070AF00DFC8B9 /* Assets.xcassets in Resources */,
+				AEC62CB020A070AE00DFC8B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE65A4371F7D52A800847D20 /* Sources */ = {
+		AEC62CA220A070AE00DFC8B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE65A4431F7D52A800847D20 /* ViewController.m in Sources */,
-				AE65A44E1F7D52A800847D20 /* main.m in Sources */,
-				AE65A4401F7D52A800847D20 /* AppDelegate.m in Sources */,
+				AEC62CAD20A070AE00DFC8B9 /* ViewController.m in Sources */,
+				AEC62CB820A070AF00DFC8B9 /* main.m in Sources */,
+				AEC62CAA20A070AE00DFC8B9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE65A4441F7D52A800847D20 /* Main.storyboard */ = {
+		AEC62CAE20A070AE00DFC8B9 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE65A4451F7D52A800847D20 /* Base */,
+				AEC62CAF20A070AE00DFC8B9 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AE65A4491F7D52A800847D20 /* LaunchScreen.storyboard */ = {
+		AEC62CB320A070AF00DFC8B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AE65A44A1F7D52A800847D20 /* Base */,
+				AEC62CB420A070AF00DFC8B9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -210,6 +196,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -217,6 +204,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -244,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -265,6 +253,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -272,6 +261,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -293,48 +283,56 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AE65A4521F7D52A800847D20 /* Debug */ = {
+		AEC62CB920A070AF00DFC8B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/KZ_AudioPlayer/AudioPlayer",
+					"$(PROJECT_DIR)/KZ_AudioPlayer_iOS/AudioPlayer",
 				);
-				INFOPLIST_FILE = KZ_AudioPlayer/Info.plist;
+				INFOPLIST_FILE = KZ_AudioPlayer_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.AudioPlayer;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-AudioPlayer-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AE65A4531F7D52A800847D20 /* Release */ = {
+		AEC62CBA20A070AF00DFC8B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/KZ_AudioPlayer/AudioPlayer",
+					"$(PROJECT_DIR)/KZ_AudioPlayer_iOS/AudioPlayer",
 				);
-				INFOPLIST_FILE = KZ_AudioPlayer/Info.plist;
+				INFOPLIST_FILE = KZ_AudioPlayer_iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.AudioPlayer;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-AudioPlayer-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -352,11 +350,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE65A4511F7D52A800847D20 /* Build configuration list for PBXNativeTarget "KZ_AudioPlayer" */ = {
+		AEC62CBB20A070AF00DFC8B9 /* Build configuration list for PBXNativeTarget "KZ_AudioPlayer_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE65A4521F7D52A800847D20 /* Debug */,
-				AE65A4531F7D52A800847D20 /* Release */,
+				AEC62CB920A070AF00DFC8B9 /* Debug */,
+				AEC62CBA20A070AF00DFC8B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

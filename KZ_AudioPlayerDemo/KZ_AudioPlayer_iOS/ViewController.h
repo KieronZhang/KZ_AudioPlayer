@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  KZ_AudioPlayer
+//  KZ_AudioPlayer_iOS
 //
-//  Created by Kieron Zhang on 2017/9/28.
-//  Copyright © 2017年 Kieron Zhang. All rights reserved.
+//  Created by Kieron Zhang on 2018/5/7.
+//  Copyright © 2018年 Kieron Zhang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -1,14 +1,14 @@
 //
 //  ViewController.m
-//  KZ_AudioPlayer
+//  KZ_AudioPlayer_iOS
 //
-//  Created by Kieron Zhang on 2017/9/28.
-//  Copyright © 2017年 Kieron Zhang. All rights reserved.
+//  Created by Kieron Zhang on 2018/5/7.
+//  Copyright © 2018年 Kieron Zhang. All rights reserved.
 //
 
 #import "ViewController.h"
-#import <KZ_AudioPlayerFramework/KZ_AudioRecorder.h>
-#import <KZ_AudioPlayerFramework/KZ_AudioPlayer.h>
+#import <KZ_AudioPlayer_iOS/KZ_AudioRecorder.h>
+#import <KZ_AudioPlayer_iOS/KZ_AudioPlayer.h>
 
 typedef NS_ENUM(NSInteger, KZ_RecordingType) {
     KZ_RecordingType_Stop,
@@ -119,6 +119,16 @@ typedef NS_ENUM(NSInteger, KZ_RecordingType) {
 }
 
 #pragma mark KZ_AudioPlayerDelegate
+- (void)audioPlayingDuration:(NSTimeInterval)duration currentTime:(NSTimeInterval)currentTime peakPower:(float)peakPower averagePower:(float)averagePower {
+    int time = (int)currentTime;
+    int hours = time / 3600;
+    int minutes = (time / 60) % 60;
+    int seconds = time % 60;
+    timerLabel.text = [NSString stringWithFormat:@"%02d:%02d:%02d", hours, minutes, seconds];
+    
+    averagePowerView.frame = CGRectMake(0, CGRectGetHeight(recordView.bounds) - 10, CGRectGetWidth(recordView.bounds) * averagePower, 5);
+    peakPowerView.frame = CGRectMake(0, CGRectGetHeight(recordView.bounds) - 5, CGRectGetWidth(recordView.bounds) * peakPower, 5);
+}
 
 #pragma mark KZ_AudioRecorderDelegate
 - (void)audioRecorderDidStart {
