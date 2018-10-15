@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE4A1F7A21749B5C0095BA90 /* KZ_AudioPlayer_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE4A1F7921749B5C0095BA90 /* KZ_AudioPlayer_iOS.framework */; };
 		AEC62CAA20A070AE00DFC8B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62CA920A070AE00DFC8B9 /* AppDelegate.m */; };
 		AEC62CAD20A070AE00DFC8B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62CAC20A070AE00DFC8B9 /* ViewController.m */; };
 		AEC62CB020A070AE00DFC8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC62CAE20A070AE00DFC8B9 /* Main.storyboard */; };
 		AEC62CB220A070AF00DFC8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC62CB120A070AF00DFC8B9 /* Assets.xcassets */; };
 		AEC62CB520A070AF00DFC8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC62CB320A070AF00DFC8B9 /* LaunchScreen.storyboard */; };
 		AEC62CB820A070AF00DFC8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62CB720A070AF00DFC8B9 /* main.m */; };
-		AEC62CBE20A070E100DFC8B9 /* KZ_AudioPlayer_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC62CBD20A070E100DFC8B9 /* KZ_AudioPlayer_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE4A1F7921749B5C0095BA90 /* KZ_AudioPlayer_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AudioPlayer_iOS.framework; sourceTree = "<group>"; };
 		AEC62CA620A070AE00DFC8B9 /* KZ_AudioPlayer_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_AudioPlayer_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC62CA820A070AE00DFC8B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEC62CA920A070AE00DFC8B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		AEC62CB420A070AF00DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEC62CB620A070AF00DFC8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEC62CB720A070AF00DFC8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AEC62CBD20A070E100DFC8B9 /* KZ_AudioPlayer_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AudioPlayer_iOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEC62CBE20A070E100DFC8B9 /* KZ_AudioPlayer_iOS.framework in Frameworks */,
+				AE4A1F7A21749B5C0095BA90 /* KZ_AudioPlayer_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 		AEC62CBC20A070E100DFC8B9 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				AEC62CBD20A070E100DFC8B9 /* KZ_AudioPlayer_iOS.framework */,
+				AE4A1F7921749B5C0095BA90 /* KZ_AudioPlayer_iOS.framework */,
 			);
 			path = AudioPlayer;
 			sourceTree = "<group>";
@@ -308,7 +308,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-AudioPlayer-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.AudioPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -332,7 +332,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-AudioPlayer-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.AudioPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
